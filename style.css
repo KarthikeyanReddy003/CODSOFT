@@ -1,0 +1,113 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* About Section */
+  .about-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .about img {
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .about p {
+    flex: 1;
+  }
+  
+  /* Skills */
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .skills li {
+    background: #8f94fb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  
+  /* Projects */
+  .project-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .project-card h3 {
+    margin-top: 15px;
+  }
+  .project-card p {
+    margin-top: 10px;
+  }
+  
+  /* Resume */
+  .resume .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #4e54c8;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s ease;
+  }
+  .resume .btn:hover {
+    background: #2c2f9c;
+  }
+  
+  /* Contact */
+  .contact p {
+    margin: 10px 0;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
